@@ -1,0 +1,51 @@
+
+								
+<html> 
+<body bgcolor='cream'> 
+    <h3 align='center'> Customer Churn Prediction Form </h3> 
+  
+<div> 
+  <form action="{{ url_for('predict')}}" method="POST"> 
+    <label for="AccountWeeks">AccountWeeks</label> 
+    <input type="text" id="AccountWeeks" name="AccountWeeks"> 
+    <br>
+    <br>
+    <label for="c_gain">ContractRenewal</label> 
+    <input type="text" id="ContractRenewal" name="ContractRenewal" placeholder='Binary values'>
+    <br> 
+    <label for="c_loss">DataPlan</label> 
+    <input type="text" id="c_loss" name="DataPlan" placeholder='Binary Values only '>
+    <br> 
+    <label for="hours_per_week">DataUsage</label> 
+    <input type="text" id="DataUsage" name="DataUsage">
+    <br> 
+           <br> 
+    <label for="hours_per_week">CustServCalls</label> 
+    <input type="text" id="CustServCalls" name="CustServCalls">
+    <br> 
+        <br> 
+    <label for="hours_per_week">DayMins</label> 
+    <input type="text" id="DayMins" name="DayMins">
+    <br> 
+        <br> 
+    <label for="hours_per_week">DayCalls</label> 
+    <input type="text" id="DayCalls" name="DayCalls">
+    <br> 
+        <br> 
+    <label for="hours_per_week">MonthlyCharge</label> 
+    <input type="text" id="MonthlyCharge" name="MonthlyCharge">
+    <br> 
+         <br> 
+    <label for="hours_per_week">OverageFee</label> 
+    <input type="text" id="OverageFee" name="OverageFee">
+    <br> 
+         <br> 
+    <label for="hours_per_week">RoamMins</label> 
+    <input type="text" id="RoamMins" name="RoamMins">
+    <br> 
+    <input type="submit" value="Submit"> 
+
+  </form> 
+</div> 
+</body> 
+</html> 
