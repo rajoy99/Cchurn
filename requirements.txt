@@ -54,5 +54,5 @@ thonny==2.1.16
 tinycss==0.4
 ubuntu-drivers-common==0.0.0
 ufw==0.36
-urllib3==1.22
+urllib3==1.24.2
 xkit==0.0.0
