@@ -10,6 +10,29 @@ Customer churn (also known as customer attrition) refers to when a customer (pla
 
 The underlying machine learning model is a Multi Layer Perceptron classifier . It acheived 97 % accuarcy on test dataset . 
 
+Features that have been taken to consideration to make the prediction
+
+-AccountWeeks
+
+-ContractRenewal
+
+-DataPlan
+
+-DataUsage
+
+-CustServCalls
+
+-DayMins
+
+-DayCalls
+
+-MonthlyCharge
+
+-OverageFee
+
+-RoamMins
+
+The web app takes input those fields by corresponding forms .
 
 **Confusion matrix of the machine learning model**
 
